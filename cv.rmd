@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "/Users/yufangzhou/Dropbox/Personal Info/cv/",  
+  data_location = "/Users/yufangzhou/Dropbox/Personal Info/datadrivencv/",  
   pdf_mode = params$pdf_mode
 )
 
@@ -54,7 +54,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _nickstrayer.me/datadrivencv/_")
+  cat("View this CV online with links at _fangzhou.netlify.app_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/miryo87s/cv/raw/master/cv.pdf)")
 }
@@ -81,7 +81,7 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+Made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/). 
 
 The source code is available [on github.com/nstrayer/cv](https://github.com/nstrayer/datadrivencv).
 
@@ -118,11 +118,6 @@ Research Experience {data-icon=laptop}
 CV %<>% print_section('research_positions')
 ```
 
-
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
