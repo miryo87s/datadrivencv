@@ -1,5 +1,6 @@
-﻿Name of language,Relative numeric level of skill,,,,,,,,,,,,,,,,,,,,,,,,
-skill,level,,,,,,,,,,,,,,,,,,,,,,,,
-R,4,,,,,,,,,,,,,,,,,,,,,,,,
-Python,3,,,,,,,,,,,,,,,,,,,,,,,,
-Stata,3,,,,,,,,,,,,,,,,,,,,,,,,
+﻿Name of language,Relative numeric level of skill
+skill,level
+R,5
+Python,4
+Stata,4
+Matlab,3
