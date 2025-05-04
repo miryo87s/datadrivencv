@@ -110,15 +110,6 @@ CV %<>% print_section('education')
 ```
 
 
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-
-
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -145,5 +136,13 @@ CV %<>% print_section('academic_articles')
 
 ```{r}
 CV %<>% print_links()
+```
+
+
+Other Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
 ```
 
